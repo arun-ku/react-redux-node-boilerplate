@@ -1,0 +1,157 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.navbar{
+  background-color: #a3a3a3;
+  padding: 4px;
+  .links{
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    &:hover{
+      background-color: #d3d3d3;
+    }
+  }
+}
+
+.post-container{
+  width: 50%;
+  margin: 15px auto;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .7);
+}
+
+.color-red{
+  color: red;
+}
+
+.input-fields{
+  padding: 10px 17px;
+  display: block;
+  width: 92%;
+  margin-top: 10px;
+}
+
+.signup-form-box{
+  	width:35%;
+    float: right;
+    margin-right: 8%;
+    margin-top: 15vh;
+    background-color: #ecf0f1;
+}
+
+.shadow-box {
+  padding: 20px;
+}
+
+.shadow-effect
+{
+  position: relative;
+}
+.shadow-effect:before, .shadow-effect:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(-3deg);
+}
+.shadow-effect:after
+{
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+.submit-button{
+  padding: 10px 30px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #FFF;
+  background-color: #bdc3c7;
+  background: linear-gradient(#bdc3c7, #95a5a6);
+  border: none;
+  outline: none;
+  float: right;
+  &:hover{
+    background: linear-gradient(#95a5a6, #bdc3c7);
+  }
+}
+
+.form-heading{
+  color: #7f8c8d;
+}
+
+.social-login-wrapper{
+  position: absolute;
+  top: 400px;
+  right: 126px;
+}
+
+.social-login{
+  display: inline-block;
+  margin: 10px 4px;
+  background-color: #bdc3c7;
+  height: 50px;
+  cursor: pointer;
+  img{
+    width :50px;
+    height : 50px;
+    display: inline-block;
+  }
+  span{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 50px;
+    padding: 0px 15px;
+  }
+}
+
+.ar-tooltip{
+    display: inline;
+}
+
+.ar-tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 100%;
+    color: #fff;
+    content: attr(data-tooltip-text);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+.ar-tooltip:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: calc(100% - 6px);
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+.logout-btn{
+  padding: 5px 14px;
+  margin-left: 65%;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  cursor : pointer;
+}
