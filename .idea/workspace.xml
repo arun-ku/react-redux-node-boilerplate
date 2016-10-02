@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d02fa6-b1e8-4659-92e6-fbdbf06dd161" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package-temp.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/environment/development.js" afterPath="$PROJECT_DIR$/server/config/environment/development.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/express.js" afterPath="$PROJECT_DIR$/server/config/express.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/environment/index.js" afterPath="$PROJECT_DIR$/server/config/environment/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/local.env.js" afterPath="$PROJECT_DIR$/server/config/local.env.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/local.env.sample.js" afterPath="$PROJECT_DIR$/server/config/local.env.sample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/environment/production.js" afterPath="$PROJECT_DIR$/server/config/environment/production.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/environment/test.js" afterPath="$PROJECT_DIR$/server/config/environment/test.js" />
     </list>
     <ignored path="react-redux-startup-boilerplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/server/config/environment/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7208672" vertical-offset="649" max-vertical-offset="1170">
-              <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+              <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -498,7 +491,7 @@
     <entry file="file://$PROJECT_DIR$/server/config/environment/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7208672" vertical-offset="649" max-vertical-offset="1170">
-          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
           <folding />
         </state>
       </provider>
