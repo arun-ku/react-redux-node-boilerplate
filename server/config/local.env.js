@@ -7,7 +7,7 @@
 
 module.exports = {
   DOMAIN: 'http://localhost:9000',
-  SESSION_SECRET: 'buddy-legal-secret',
+  SESSION_SECRET: 'shhhh-secret',
 
   FACEBOOK_ID: 'app-id',
   FACEBOOK_SECRET: 'secret',

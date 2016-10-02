@@ -6,7 +6,7 @@
 module.exports = {
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/buddylegal-test'
+    uri: 'mongodb://localhost/reactreduxboilerplate-test'
   },
   sequelize: {
     uri: 'sqlite://',

@@ -7,7 +7,7 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/buddylegal'
+    uri: 'mongodb://localhost/reactreduxboilerplate'
   },
 
   // Seed database on startup
